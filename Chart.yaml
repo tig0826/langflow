@@ -1,0 +1,7 @@
+apiVersion: v2
+name: langflow-app
+version: 0.1.0
+dependencies:
+  - name: langflow-ide
+    version: v0.1.1
+    repository: https://langflow-ai.github.io/langflow-helm-charts

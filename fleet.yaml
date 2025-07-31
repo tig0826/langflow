@@ -1,0 +1,10 @@
+defaultNamespace: langflow
+
+helm:
+  chart: langflow-ide
+  repo: https://langflow-ai.github.io/langflow-helm-charts
+  version: v0.1.1
+  releaseName: langflow
+  valuesFiles:
+    - values.yaml
+
