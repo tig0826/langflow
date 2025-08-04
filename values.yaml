@@ -119,8 +119,8 @@ langflow:
     replicaCount: 1
     resources:
       requests:
-        cpu: 0.3
-        memory: 512Mi
+        cpu: 1
+        memory: 2Gi
     service:
       port: 8080
       type: ClusterIP
